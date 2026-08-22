@@ -1,0 +1,4 @@
+.DS_Store
+
+# Wird zur Laufzeit erzeugt und enthaelt die Audiohardware dieses Rechners.
+audio_settings.scd
