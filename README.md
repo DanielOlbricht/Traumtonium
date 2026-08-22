@@ -1,13 +1,12 @@
 # Traumtonium
 
 Digitales Mixturtrautonium. Zwei Spielmanuale erfassen Position und Druck der
-Finger, ein Teensy 4.0 überträgt die Werte seriell, und SuperCollider erzeugt
-daraus subharmonische Mixturen.
+Finger, ein Teensy 4.0 überträgt die Werte seriell. In SuperCollider passiert die Klangerzeugung, 
+die den Konzepten des Mixturtrautoniums nach Oskar Sala nachempfunden ist. 
 
 Entstanden als Bachelorarbeit im Studiengang Ton und Bild an der Hochschule
 Düsseldorf, Fachbereich Medien, 2026.
 
-TESTETSTETSTE
 
 ## Voraussetzungen
 
@@ -15,6 +14,7 @@ TESTETSTETSTE
 - [sc3-plugins](https://github.com/supercollider/sc3-plugins) für die UGens
   `DPW3Tri`, `PulseDPW`, `DPW4Saw`, `SVF` und `JPverb`
 - Teensy 4.0 mit der Firmware aus `Teensy4.0_firmware/`
+- Traumtonium mit zwei Spielmanualen
 
 ## Starten
 
@@ -34,6 +34,6 @@ die Oberfläche gestartet.
 | `gui.scd` | Oberfläche, Presets, Serverstart |
 | `Presets/` | gespeicherte Registrierungen |
 
-`audio_settings.scd` entsteht zur Laufzeit und speichert Audiogerät und
-Kanalzahl des jeweiligen Rechners. Die Datei ist bewusst nicht Teil des
+`audio_settings.scd` entsteht zur Laufzeit und speichert das vom Benutzer / der Benutzerin ausgewählte Audiogerät und
+dessen Kanalzahl und erinniert sich beim nächsten Programmstart daran. Die Datei ist bewusst nicht Teil des
 Repositoriums.
