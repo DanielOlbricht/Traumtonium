@@ -12,7 +12,7 @@ Düsseldorf, Fachbereich Medien, 2026.
 - SuperCollider 3.14.1
 - [sc3-plugins](https://github.com/supercollider/sc3-plugins) für die UGens
   `DPW3Tri`, `PulseDPW`, `DPW4Saw`, `SVF` und `JPverb`
-- Teensy 4.0 mit der Firmware aus `firmware/`
+- Teensy 4.0 mit der Firmware aus `Teensy4.0_firmware/`
 
 ## Starten
 
