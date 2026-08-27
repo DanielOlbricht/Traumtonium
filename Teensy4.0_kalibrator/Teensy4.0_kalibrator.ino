@@ -28,5 +28,5 @@ void loop() {
     count = 0;
   }
 
-  delay(10);
+  delay(50);
 }

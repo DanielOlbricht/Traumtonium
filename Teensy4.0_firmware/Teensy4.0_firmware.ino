@@ -14,11 +14,11 @@ void setup() {
 }
 
 void loop() {
-  int pitch1_raw  = map(analogRead(A0), 10,   4086, 0, 2400);
+  int pitch1_raw  = map(analogRead(A0), 10,   4090, 0, 2400);
   int press1L_raw = map(analogRead(A1), 62,   1276, 500, 0);
-  int press1R_raw = map(analogRead(A2), 52,   1300, 500, 0);
-  int pitch2_raw  = map(analogRead(A3), 10,   4086, 0, 2400);
-  int press2L_raw = map(analogRead(A4), 60,   1288, 500, 0);
+  int press1R_raw = map(analogRead(A2), 52,   1302, 500, 0);
+  int pitch2_raw  = map(analogRead(A3), 10,   4090, 0, 2400);
+  int press2L_raw = map(analogRead(A4), 60,   1275, 500, 0);
   int press2R_raw = map(analogRead(A5), 57,   1290, 500, 0);
 
   pitch1_s  = 0.5 * pitch1_s  + 0.5 * pitch1_raw;    //mehr Vergangenheit oder mehr Neuheit (raw)
