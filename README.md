@@ -35,5 +35,5 @@ die Oberfläche gestartet.
 | `Presets/` | gespeicherte Registrierungen |
 
 `audio_settings.scd` entsteht zur Laufzeit und speichert das vom Benutzer / der Benutzerin ausgewählte Audiogerät und
-dessen Kanalzahl und erinniert sich beim nächsten Programmstart daran. Die Datei ist bewusst nicht Teil des
+dessen Kanalzahl und erinnert sich beim nächsten Programmstart daran. Die Datei ist bewusst nicht Teil des
 Repositoriums.
