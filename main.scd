@@ -20,8 +20,8 @@
 
 
 (
-//put your Cursor here:
-//and press Cmd+Enter
+//Cursor hier platzieren:
+//starten mit cmd+Enter
 ~projPath = thisProcess.nowExecutingPath.dirname;
 s.options.hardwareBufferSize = 64;
 loadRelative("serial.scd");
