@@ -9,7 +9,7 @@
 //         Digitales Mixturtrautonium          //
 //                                             //
 //                                             //
-//           Daniel Olbricht · HSD             //
+//           Daniel Olbricht                   //
 //                                             //
 //                                             //
 
