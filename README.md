@@ -7,6 +7,8 @@ die den Konzepten des Mixturtrautoniums nach Oskar Sala nachempfunden ist.
 Entstanden als Bachelorarbeit im Studiengang Ton und Bild an der Hochschule
 Düsseldorf, Fachbereich Medien, 2026.
 
+[Demo Video](https://www.youtube.com/watch?v=M0YNXDXLcLI)
+
 
 ## Voraussetzungen
 
