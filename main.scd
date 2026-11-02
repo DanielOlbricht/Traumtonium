@@ -23,7 +23,7 @@
 //Cursor hier platzieren:
 //starten mit cmd+Enter
 ~projPath = thisProcess.nowExecutingPath.dirname;
-s.options.hardwareBufferSize = 64;
+s.options.hardwareBufferSize = 128;
 loadRelative("serial.scd");
 loadRelative("MIDIdefs.scd");
 loadRelative("gui.scd");
